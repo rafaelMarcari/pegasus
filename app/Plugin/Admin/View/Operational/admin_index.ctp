@@ -49,9 +49,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                    <label for="inputEmail" class="col-sm-2 control-label">E-mail</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="textEmail" placeholder="Email">
+                        <input type="text" class="form-control" id="textEmail" placeholder="E-mail">
                     </div>
                 </div>
                 <div class="form-group">
@@ -127,6 +127,56 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label for="inputGestor" class="col-sm-2 control-label">Nome do Gestor*</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="textGestor" placeholder="Gestor">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmailGestor" class="col-sm-2 control-label">E-mail*</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="textEmailGestor" placeholder="E--mail">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputTelefoneGestor" class="col-sm-2 control-label">Telefone*</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="textTelefoneGestor" placeholder="Telefone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputDedicacao" class="col-sm-2 control-label">Dedicação*</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="textDedicacao" placeholder="Dedicacao">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputDedicacaoGestor" class="col-sm-2 control-label">Documento Comprobatório da Dedicação do Gestor</label>
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Carregar</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEstatudoSocial" class="col-sm-2 control-label">Estatuto Social</label>
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Visualizar</button>
+                        <button type="submit" class="btn btn-primary">Carregar</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputRegimentoInterno" class="col-sm-2 control-label">Regimento Interno</label>
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Visualizar</button>
+                        <button type="submit" class="btn btn-primary">Carregar</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputVinculoEntidade" class="col-sm-2 control-label">Vinculo com Entidade Gestora</label>
+                    <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Carregar</button>
+                    </div>
+                </div>
+                <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                         <button type="submit" class="btn btn-default">Salvar</button>
                     </div>
@@ -134,14 +184,54 @@
             </form>
         </div>
         <div>
-            <br>
-            <br>
-            <p>Empreendimentos</p>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Logo</th>
+                    <th>Nome</th>
+                    <th>Status</th>
+                    <th>Setor Atuação</th>
+                    <th>Descrição Sumária</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>Genius</td>
+                        <td>Pré-Incubadora</td>
+                        <td>Serviços Especializados</td>
+                        <td>Fabricação de Software sob-medida.</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div>
-            <br>
-            <br>
-            <p>Empreendedores</p>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Nome</th>
+                    <th>Empreendimento</th>
+                    <th>E-mail</th>
+                    <th>CPF</th>
+                    <th>Telefone</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>Diego</td>
+                        <td>Genius</td>
+                        <td>defaul@genius.com.br</td>
+                        <td>233.442.223-59</td>
+                        <td>(45)9950-9962</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div>
             <table class="table table-striped">
@@ -214,9 +304,28 @@
             </table>
         </div>
         <div>
-            <br>
-            <br>
-            <p>Registro de Serviços</p>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Empreendimento</th>
+                    <th>Acessor/Consultor</th>
+                    <th>Data</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Acessoria</td>
+                        <td>Tecnológico</td>
+                        <td>Nenhum</td>
+                        <td>Diego</td>
+                        <td>26/05/2015</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#registroServico">Inserir</button>
         </div>
         <div>
             <br>
@@ -248,3 +357,67 @@
         });
     });
 </script>
+<div class="modal fade" id="registroServico" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Registro de Serviços</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Tipo</label>
+                        <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                   </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Eixo CERNE</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">Empreendimento</label>
+                        <select class="form-control">
+                            <option>Nenhum</option>
+                            <option>Nenhum</option>
+                            <option>Nenhum</option>
+                            <option>Nenhum</option>
+                            <option>Nenhum</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">Assessor/Consultor</label>
+                        <select class="form-control">
+                            <option>Nenhum</option>
+                            <option>Nenhum</option>
+                            <option>Nenhum</option>
+                            <option>Nenhum</option>
+                            <option>Nenhum</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">Data</label>
+                        <input type="text" class="form-control" id="textData">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">Duração(Horas)*</label>
+                        <input type="text" class="form-control" id="textValor">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">Resumo do Serviço*</label>
+                        <input type="text" class="form-control" id="textResumo">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">Ata de Reunião</label>
+                    </div>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

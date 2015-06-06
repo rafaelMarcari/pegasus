@@ -57,7 +57,7 @@
 		       			$user['User']['id']
 		       			), array('class' => 'btn btn-danger btn-xs'));
 		       		$rows[] = array(
-		       			$user['User']['name'],
+		       			$user['User']['username'],
 		       			$user['Group']['name'],
 		       			$user['User']['email'],
 		       			$user['User']['username'],
@@ -74,4 +74,4 @@
 		    	</ul>
 		    </div>
 	</div>
-</div>	
+</div>

@@ -1,7 +1,14 @@
 <ul class="nav nav-pills">
-  <li class="active">
-  	<?php echo $this->html->link('Add', array('plugin' => 'admin', 'controller' => 'groups', 'action' => 'add', 'admin' => true)); ?>
-  </li>
+    <li class="active">
+        <?php
+            echo $this->Html->link('Add', array(
+                'plugin' => 'admin',
+                'controller' => 'groups',
+                'action' => 'add',
+                'admin' => true
+            ));
+        ?>
+    </li>
 </ul>
 <div class="v-space"></div>
 <div class="row">
@@ -43,4 +50,4 @@
 		      </tbody>
 		    </table>
 	</div>
-</div>	
+</div>

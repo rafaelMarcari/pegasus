@@ -78,7 +78,7 @@ class User extends AdminAppModel {
 				'rule' => 'notEmpty',
 				'message' => 'Name fields is required.',
 				'last' => true,
-			),			
+			),
 		),
 	);
 	
